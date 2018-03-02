@@ -3,6 +3,7 @@ package com.facebank.springbootmybatis.mapper;
 import com.facebank.springbootmybatis.domain.User;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
@@ -10,6 +11,7 @@ import java.util.List;
  * User映射接口
  */
 @Mapper
+@Repository
 public interface UserMapper {
 
     /**
